@@ -40,7 +40,7 @@
                             <a class="nav-link" href="{{route('setting.create')}}">setting</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">slider</a>
+                            <a class="nav-link" href="{{route('slider.create')}}">slider</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">about</a>
