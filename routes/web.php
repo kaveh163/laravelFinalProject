@@ -16,4 +16,11 @@ use Illuminate\Support\Facades\Route;
 //Route::get('/', function () {
 //    return view('index');
 //});
-Route::get('/', 'IndexController@index');
+Route::get('/', 'IndexController@index')->name('show');
+
+Auth::routes();
+
+Route::middleware('auth')->prefix('administrator')->group(function(){
+    Route::get('/admin', 'HomeController@index')->name('admin');
+    Route::resource('/setting', 'SettingController');
+});
