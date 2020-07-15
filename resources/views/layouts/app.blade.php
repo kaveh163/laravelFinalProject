@@ -43,7 +43,7 @@
                             <a class="nav-link" href="{{route('slider.create')}}">slider</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">about</a>
+                            <a class="nav-link" href="{{route('about.create')}}">about</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">contact</a>

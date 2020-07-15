@@ -6,15 +6,14 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateAboutsTable extends Migration
 {
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
+
     public function up()
     {
         Schema::create('abouts', function (Blueprint $table) {
             $table->id();
+            $table->text('about')->nullable();
+            $table->string('color')->nullable();
+            $table->string('font')->nullable();
             $table->timestamps();
         });
     }
