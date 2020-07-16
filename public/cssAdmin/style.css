@@ -1,6 +1,11 @@
 input[type=text] {
     border:2px inset gray;
 }
+input[type=file] {
+    border:2px inset gray;
+    padding:10px;
+    box-sizing: border-box;
+}
 textarea {
     border:2px inset gray !important;
     resize: none;

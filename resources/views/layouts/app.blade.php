@@ -46,11 +46,12 @@
                             <a class="nav-link" href="{{route('about.create')}}">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="{{route('gallery.create')}}">gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">gallery</a>
+                            <a class="nav-link" href="#">contact</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('show')}}" target="_blank">show_Website</a>
                         </li>
