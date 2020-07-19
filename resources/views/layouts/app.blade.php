@@ -49,7 +49,7 @@
                             <a class="nav-link" href="{{route('gallery.create')}}">gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">contact</a>
+                            <a class="nav-link" href="{{route('contact.index')}}">contact</a>
                         </li>
 
                         <li class="nav-item">
